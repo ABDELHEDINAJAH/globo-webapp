@@ -43,7 +43,7 @@ resource "aws_security_group" "webapp_ssh_inbound_sg" {
 
 resource "aws_security_group" "webapp_outbound_sg" {
   name        = "${local.name_prefix}-webapp-outbound"
-  description = "Allow outbound connections"
+  description = "Allow outbound connections--"
 
   egress {
     from_port   = 0
