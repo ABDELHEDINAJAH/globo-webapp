@@ -38,6 +38,8 @@ variable "api_key" {
 }
 
 # TFC variables
+# TFC variables
+# TFC variables
 variable "tfe_organization" {
   type        = string
   description = "(Required) Name of TFC organization."
